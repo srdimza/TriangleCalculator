@@ -101,3 +101,11 @@ code {
     background-color:white;
     font-size: 10px;
 }
+
+.equilateral{
+  border-bottom: 100px solid #000;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  z-index: 10;
+}
+
