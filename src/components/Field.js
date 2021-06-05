@@ -1,7 +1,12 @@
-function Field() {
+function Field({type, message}) {
+    // const addTriangle = (sides) => {
+    //     var a = Number(sides.A)
+    // }
+    console.log(type)
     return (
         <div className='t-field'>
-            <h3>Triangle is Equalibririr</h3>
+            <span className={type}></span>
+            <h3>{message}</h3>
         </div>
     )
 }
