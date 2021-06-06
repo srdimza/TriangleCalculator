@@ -20,11 +20,20 @@ const onSubmit = (e) => {
         alert('Please add C side')
         return
     }
+    if(isNaN(Number(A)) || isNaN(Number(B)) || isNaN(Number(C))){
+        alert('Sides have to be given as integers')
+        return
+    }
     //checks if values are integers
     if(!(Number(A) % 1 === 0) || !(Number(B) % 1 === 0) || !(Number(C) % 1 === 0)){
         alert('All sides have to be integers')
         return
     }
+    if((Number(A) <= 0) || (Number(B) <= 0) || (Number(C) <= 0)){
+        alert('All sides have to be positive integers')
+        return
+    }
+ 
     onAdd({A, B, C})
 
     // setA = ('')
