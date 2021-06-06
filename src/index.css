@@ -13,16 +13,6 @@ code {
     monospace;
 }
 .login {
-  /* opacity: 0.3; */
-  /* position: relative;
-  margin: 0 auto;
-  margin-top: 15%;
-  margin-bottom: 40%;
-  width:550px;
-  height:600px;
-  border:2px solid #f6f6f6;
-  background-color:black;
-  border-radius: 25px; */
   color: #000;
   width: 550px;
   height:600px;
@@ -32,7 +22,6 @@ code {
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  /* box-shadow: 8px 8px 50px #000; */
   border-radius: 15px;
   background-color: #fff;
   border:1px solid #000;
@@ -48,13 +37,6 @@ code {
     height: 50%;
     border:1px solid #000;
     border-radius: 5px;
-    /* position: absolute;
-    width: 496px;
-    left: 27px;
-    top: 50%;
-    height: 300px;
-   transform: translateY(-80%); */
-
   }
 
   .triangle-form {

@@ -12,15 +12,9 @@ function Field({type, message}) {
         }
         return
     }
-    // const addTriangle = (sides) => {
-    //     var a = Number(sides.A)
-    // }
-    console.log(type)
     return (
         <div className='t-field'>
-            {/* neizdodas displayot trijsturi ja neieliek kko starpaa, varbut vajag izveidot atsevisku componentu trijsturi*/
-            whichTriangle(type)}
-           {/* <IsosTriangle /> */}
+            {whichTriangle(type)}
             <h3 class="message">{message}</h3>
         </div>
     )

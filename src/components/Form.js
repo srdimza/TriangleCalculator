@@ -33,32 +33,26 @@ const onSubmit = (e) => {
         alert('All sides have to be positive integers')
         return
     }
- 
-    onAdd({A, B, C})
 
-    // setA = ('')
-    // setB = ('')
-    // setC = ('')
+    onAdd({A, B, C})
 }
     return (
        <form className='triangle-form' onSubmit={onSubmit} >
            <div className ='form-control'>
            <label>A side</label>   
-            <input type='text' value = {A} onChange ={(e) => setA(e.target.value)}/>
+            <input type='text' id='A' value = {A} onChange ={(e) => setA(e.target.value)}/>
            </div>
            <div className ='form-control'>
            <label>B side</label>    
-            <input type='text' value = {B} onChange ={(e) => setB(e.target.value)}/>
+            <input type='text' id='B' value = {B} onChange ={(e) => setB(e.target.value)}/>
            </div>
            <div className ='form-control'>
             <label>C side</label>   
-            <input type='text' value = {C} onChange ={(e) => setC(e.target.value)}/>
+            <input type='text' id='C' value = {C} onChange ={(e) => setC(e.target.value)}/>
            </div>
              <input type='submit' value='Calculate'/>
-          
-       </form>
-            
+        
+       </form>      
     )
 }
-
 export default Form
