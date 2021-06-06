@@ -13,16 +13,6 @@ code {
     monospace;
 }
 .login {
-  /* opacity: 0.3; */
-  /* position: relative;
-  margin: 0 auto;
-  margin-top: 15%;
-  margin-bottom: 40%;
-  width:550px;
-  height:600px;
-  border:2px solid #f6f6f6;
-  background-color:black;
-  border-radius: 25px; */
   color: #000;
   width: 550px;
   height:600px;
@@ -32,7 +22,6 @@ code {
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  /* box-shadow: 8px 8px 50px #000; */
   border-radius: 15px;
   background-color: #fff;
   border:1px solid #000;
@@ -48,13 +37,6 @@ code {
     height: 50%;
     border:1px solid #000;
     border-radius: 5px;
-    /* position: absolute;
-    width: 496px;
-    left: 27px;
-    top: 50%;
-    height: 300px;
-   transform: translateY(-80%); */
-
   }
 
   .triangle-form {
@@ -102,10 +84,72 @@ code {
     font-size: 10px;
 }
 
+.message {
+   margin-top: 8%;
+   margin-left: 20%;
+}
 .equilateral{
-  border-bottom: 100px solid #000;
-  border-right: 50px solid transparent;
-  border-left: 50px solid transparent;
-  z-index: 10;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173px 100px;
+border-color: transparent transparent #000 transparent;
+margin-left: 123px;
+}
+
+.equilateral:before {
+  content:"";
+  width:0px;
+  height:0px;
+
+  position: absolute;
+  border-style: solid;
+  border-width: 0 93px 166px 94px;
+  border-color: transparent transparent #fff transparent;
+  top:40px;
+  right: 181px;
+
+}
+.scalene {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 95px 175px 150px;
+  border-color: transparent transparent #000 transparent;
+  margin-left: 102px;
+}
+.scalene:before {
+  content:"";
+  width:0px;
+  height:0px;
+
+  position: absolute;
+  border-style: solid;
+  border-width: 0 90px 168px 144px;
+  border-color: transparent transparent #fff transparent;
+  top:40px;
+  right: 155px;
+
+}
+.isosceles {
+  margin-left: 158px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 65px 176px 65px;
+  border-color: transparent transparent #000 transparent;
+}
+.isosceles:before {
+  content:"";
+  width:0px;
+  height:0px;
+
+  position: absolute;
+  border-style: solid;
+  border-width: 0 62px 170px 62px;
+  border-color: transparent transparent #fff transparent;
+  top:40px;
+  right: 212px;
+
 }
 
