@@ -1,3 +1,4 @@
+
 import EqTriangle from './EqTriangle'
 import ScalTriangle from './ScalTriangle'
 import IsosTriangle from './IsosTriangle'

@@ -83,6 +83,7 @@ code {
     background-color:white;
     font-size: 10px;
 }
+
 .message {
    margin-top: 8%;
    margin-left: 20%;
@@ -149,5 +150,6 @@ margin-left: 123px;
   border-color: transparent transparent #fff transparent;
   top:40px;
   right: 212px;
+
 }
 
